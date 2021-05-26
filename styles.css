@@ -72,7 +72,12 @@ nav li a:hover {
   font-size: 15px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
+
+  #main {
+    margin: 0;
+  }
+
   header {
     flex-direction: column;
   }
@@ -86,15 +91,26 @@ nav li a:hover {
   }
 
   .menu {
+   width: 100%; 
+   justify-content: stretch;
+  }
+
+  nav ul {
     min-width: 100%;
   }
 
+  nav li{
+    width: 50%;
+    text-align: center;
+    
+}
+
   nav a {
     border-bottom: 3px solid #f2f2f2;
-    width: 50%;
+    width: 100%;
     text-justify: auto;
-    font-size: 20px;
-    margin: auto;
+    font-size: 25px;
+   
   }
 
   nav li a:hover {
@@ -107,6 +123,7 @@ nav li a:hover {
 
   nav a:hover {
     border-bottom-color: #0065fc;
+    width: 50%;
   }
   .Inscription {
     align-self: flex-end;
@@ -310,6 +327,19 @@ nav li a:hover {
 .greyStar {
   color: #f2f2f2;
 }
+@media screen and (max-width: 768px) {
+  .cadrehotel {
+    display: flex;
+    height: 220px;
+    box-sizing: border-box;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 7px #c1c1c1;
+    background-color: #fff;
+  }
+
+}
 
 /*Populaires*/
 
@@ -440,4 +470,16 @@ footer a:hover {
 
 h3 {
   margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  footer { 
+    flex-direction: column ;
+    padding: 50px 40px;
+  }
+
+  footer div {
+    padding: 0;
+  }
 }
