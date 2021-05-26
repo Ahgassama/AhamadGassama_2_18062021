@@ -79,12 +79,27 @@ nav li a:hover {
     flex-direction: column;
     margin: 0;
   }
-
+  
   header {
     flex-direction: column;
   }
   h2 {
     font-size: 1.4rem;
+    margin-left: 20px;
+  }
+
+  .searchBar{
+    margin-left: 20px;
+  }
+  .searchButton span {
+    display: none;
+  }
+  .searchButton i {
+    display: inline-block;
+  }
+
+  p {
+    margin-left: 20px;
   }
 
   .logo {
@@ -210,10 +225,6 @@ nav li a:hover {
   flex-shrink: 0;
 }
 
-.searchButton i {
-  display: none;
-}
-
 .blocFiltres {
   display: flex;
   flex-wrap: wrap;
@@ -290,6 +301,11 @@ nav li a:hover {
   margin: auto;
   font-size: 0.9rem;
 }
+
+.searchButton i {
+  display: none;
+}
+
 .Grillehotel {
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(3, 1fr);
@@ -331,6 +347,37 @@ nav li a:hover {
 }
 @media screen and (max-width: 768px) {
 
+  .searchInput {
+    border: 1px solid #f2f2f2;
+    padding: 0 0 0 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 350px;
+  }
+
+  .searchButton {
+    width: 50px;
+    background-color: #0065fc;
+    border: none;
+    padding: 0;
+    border-radius: 0 15px 15px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
+  .searchButton i {
+    display: block;
+  }
+  .titreFiltre {
+    display: flex;
+    align-self: center;
+    margin-right: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
   .conteneurHotels {
     display: flex;
     flex-direction: column-reverse;
@@ -345,6 +392,12 @@ nav li a:hover {
 
   .Pluspopulaires {
     flex: 2;
+  }
+
+  .blocInfo {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
 
 }
