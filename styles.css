@@ -328,15 +328,21 @@ nav li a:hover {
   color: #f2f2f2;
 }
 @media screen and (max-width: 768px) {
-  .cadrehotel {
+
+  .conteneurHotels {
     display: flex;
-    height: 220px;
-    box-sizing: border-box;
-    border: 5px solid #fff;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 0 7px #c1c1c1;
-    background-color: #fff;
+    flex-direction: column-reverse;
+  }
+
+  .Grillehotel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+  }
+
+  .Pluspopulaires {
+    flex: 2;
   }
 
 }
