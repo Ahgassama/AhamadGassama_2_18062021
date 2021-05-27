@@ -1,3 +1,6 @@
+
+
+
 body {
   margin: 0;
   padding: 0;
@@ -22,7 +25,7 @@ h2 {
 
 p {
   font-size: 13px;
-  font-weight: lighter;
+  font-weight:thin;
 }
 a {
   text-decoration: none;
@@ -413,6 +416,16 @@ nav li a:hover {
 
 }
 
+/*Tablette*/
+
+@media screen and (max-width: 991px) {
+
+  .conteneurHotels {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+}
 /*Populaires*/
 
 .Pluspopulaires {
