@@ -114,25 +114,28 @@ nav li a:hover {
 
   .menu {
    width: 100%; 
-   justify-content: stretch;
+   
   }
 
   nav ul {
     min-width: 100%;
+    justify-content: stretch;
+
   }
 
   nav li{
-    width: 50%;
+    width: 100%;
     text-align: center;
     
 }
 
   nav a {
     border-bottom: 3px solid #f2f2f2;
-    width: 100%;
+    padding-bottom: 10px;
+    width: 50%;
     text-justify: auto;
-    font-size: 25px;
-   
+    font-size: 20px;
+    font-weight: 100; 
   }
 
   nav li a:hover {
@@ -416,16 +419,6 @@ nav li a:hover {
 
 }
 
-/*Tablette*/
-
-@media screen and (max-width: 991px) {
-
-  .conteneurHotels {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-}
 /*Populaires*/
 
 .Pluspopulaires {
