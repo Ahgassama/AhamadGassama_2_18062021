@@ -632,4 +632,19 @@ h3 {
     .hebergements {
       background-color:white;
     }
+    .cadreActivite img {
+      width: 100%;
+      object-fit: cover;
+      height: 80%;
+    }
+    .lieuDescription {
+      flex: 1;
+      align-self: center;
+      background-color: #fff;
+      padding-left: 10px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      height: 20%;
+      text-align: center;
+    }
 }
