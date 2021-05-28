@@ -83,6 +83,7 @@ nav li a:hover {
     display: flex;
     flex-direction: column;
     margin: 0;
+   
   }
   
   header {
@@ -405,12 +406,7 @@ nav li a:hover {
     width: 100%;
   }
 
-  .Pluspopulaires {
-    margin: 0;
-  }
-  
  
-
   .blocInfo {
     display: flex;
     margin-left: 20px;
@@ -532,6 +528,17 @@ h3 {
 
 @media screen and (max-width: 768px) {
 
+  .Pluspopulaires {
+  background-color: #f2f2f2;
+  border-radius: 0;
+  margin-left: 0;
+  }
+  
+  .hebergements {
+    background-color:white;
+  }
+
+
   .Activites {
     margin: auto;
   }
@@ -602,4 +609,27 @@ h3 {
   footer div {
     padding: 0;
   }
+}
+/*Tablette*/
+
+@media screen and (max-width: 991px) {
+  .conteneurHotels {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .Grillehotel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .Pluspopulaires {
+    background-color: #f2f2f2;
+    border-radius: 0;
+    margin-left: 0;
+    }
+    
+    .hebergements {
+      background-color:white;
+    }
 }
