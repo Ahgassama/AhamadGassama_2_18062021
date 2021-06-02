@@ -642,7 +642,7 @@ h3 {
     .cadreActivite img {
       width: 100%;
       object-fit: cover;
-      height: 80%;
+      height: 70%;
     }
     .lieuDescription {
       flex: 1;
@@ -651,7 +651,35 @@ h3 {
       padding-left: 10px;
       font-size: 1.1rem;
       font-weight: 700;
-      height: 20%;
+      height: 30%;
       text-align: center;
     }
+    .Activites {
+      margin: auto;
+    }
+    .TableauActivites {
+      display: flex;
+      flex-direction: column; 
+      margin-bottom: 10px;
+      height: auto;
+      flex-wrap: wrap;
+    }
+    .cadreActivite {
+      width:90%;
+      max-height: 400px;
+      flex-wrap: wrap;
+      margin: auto;
+    }
+  
+   .cadreActivite img {
+     max-height: 250px;
+   }
+  
+   .lieuDescription {
+     justify-content: center;
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     max-height: 150px;
+   }
 }
