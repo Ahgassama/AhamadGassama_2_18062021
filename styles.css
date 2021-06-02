@@ -325,7 +325,7 @@ nav li a:hover {
 .Grillehotel {
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-  gap: 30px;
+  gap: 25px;
   margin: 30px 0 50px;
 }
 
@@ -344,7 +344,7 @@ nav li a:hover {
 
 .cadrehotel img {
   width: 100%;
-  height: 126px;
+  height: 130px;
   object-fit: cover;
 }
 
@@ -355,7 +355,7 @@ nav li a:hover {
 }
 
 .noteHotel {
-  word-spacing: -1ch;
+  word-spacing:-1ch;;
 }
 .fa-star {
   font-size: 0.8rem;
@@ -427,6 +427,7 @@ nav li a:hover {
 .Pluspopulaires {
   flex: 1;
   margin-left: 30px;
+  
 }
 
 .titrePopulaire {
@@ -453,16 +454,20 @@ nav li a:hover {
 }
 .PopulaireDescription {
   flex: 1;
-  background-color: #fff;
   flex-direction: column;
+  background-color: #fff;
   justify-content: space-between;
   padding: 10px;
+  font-size: 0.9rem;
   text-align: center;
 }
+
+
+
 h3 {
   margin: 0;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 .PopulaireDescription .NomHotel + p {
@@ -509,16 +514,31 @@ h3 {
 .cadreActivite img {
   width: 100%;
   object-fit: cover;
-  height: 90%;
+  height: 85%;
 }
 .lieuDescription {
   flex: 1;
   align-self: center;
   background-color: #fff;
+  padding-top: 15px;
   padding-left: 10px;
   font-size: 1.1rem;
   font-weight: 700;
-  height: 10%;
+  height: 15%;
+}
+
+.row2 .cadreActivite img {
+  height: 72%;
+}
+.row2 .lieuDescription {
+  height: 28%;
+}
+
+.row3 .cadreActivite img{
+  height: 67%;
+}
+.row3 .lieuDescription {
+  height: 33%;
 }
 
 .row1 {
@@ -534,12 +554,23 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-
+  .hotelDescription {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 0.5em; 
+    justify-content: center;
+  }
+ 
   .Pluspopulaires {
   background-color: #f2f2f2;
   border-radius: 0;
   margin-left: 0;
   }
+
+  .Nomhotel,.noteHotel{
+    padding-left: 20px;
+  }
+
   
   .hebergements {
     background-color:white;
@@ -568,10 +599,13 @@ h3 {
    max-height: 200px;
  }
 
+
+
  .lieuDescription {
    justify-content: center;
    padding-left: 10px;
-   padding-top: 5px;
+   padding-top: 10px;
+   max-height: 100px;
  }
  
 }
