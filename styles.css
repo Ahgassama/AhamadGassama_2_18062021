@@ -671,6 +671,31 @@ h3 {
     flex-direction: column;
     width: 100%;
   }
+  .cadrehotel {
+    height: 300px;
+    box-sizing: border-box;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 7px #c1c1c1;
+    background-color: #fff;
+  }
+
+  .cadrehotel img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+
+  .hotelDescription {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    line-height: 0.2em; 
+    justify-content: center;
+    text-align: center;
+    height: 10%;
+  }
+
   .Pluspopulaires {
     background-color: #f2f2f2;
     border-radius: 0;
@@ -683,7 +708,7 @@ h3 {
     .cadreActivite img {
       width: 100%;
       object-fit: cover;
-      height: 70%;
+      height: 80%;
     }
     .lieuDescription {
       flex: 1;
