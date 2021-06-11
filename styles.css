@@ -669,7 +669,7 @@ h3 {
 
 /*Version Tablette ensemble*/
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1025px) {
   .conteneurHotels {
     display: flex;
     flex-direction: column-reverse;
