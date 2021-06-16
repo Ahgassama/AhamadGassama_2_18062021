@@ -81,13 +81,13 @@ nav li a:hover {
 
 /*Header mobile*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
 
   #main {
     display: flex;
     flex-direction: column;
-    margin: 0;
-   
+    justify-content: center;
+    margin : 0;
   }
   
   header {
@@ -333,7 +333,10 @@ nav li a:hover {
   margin: 30px 0 50px;
 }
 
-
+.conteneurHotels {
+  display: flex;
+  justify-content: center;
+}
 
 .cadrehotel {
   display: grid;
@@ -375,14 +378,14 @@ nav li a:hover {
 }
 /*Section mobile*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
 
   .searchInput {
     border: 1px solid #f2f2f2;
     padding: 0 0 0 15px;
     font-size: 1.1rem;
     font-weight: 600;
-    width: 350px;
+    max-width: 350px;
   }
 
   .searchButton {
@@ -426,6 +429,7 @@ nav li a:hover {
     margin-bottom: 20px;
   }
 
+
 }
 
 /*Populaires*/
@@ -459,13 +463,13 @@ nav li a:hover {
   object-fit: cover;
 }
 .PopulaireDescription {
-  flex: 1;
+  flex: 1; 
   flex-direction: column;
   background-color: #fff;
   justify-content: space-between;
   padding: 10px;
   font-size: 0.9rem;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -561,7 +565,7 @@ h3 {
 
 /*Populaires et Activités mobile*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .hotelDescription {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -573,6 +577,7 @@ h3 {
   background-color: #f2f2f2;
   border-radius: 0;
   margin-left: 0;
+  max-width:700px;
   }
 
   .Nomhotel,.noteHotel{
@@ -582,6 +587,7 @@ h3 {
   
   .hebergements {
     background-color:white;
+    max-width: 700px;
   }
 
 
@@ -648,12 +654,13 @@ h3 {
 
 /*Footer mobile*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   footer { 
     flex-direction: column;
     padding: 50px 40px;
     padding-bottom: 10px;
     margin-bottom: 1%;  
+    width: 100%;
   }
 
   footer h3 
@@ -762,7 +769,7 @@ h3 {
     padding: 50px 40px;
     justify-content: center;
     padding-bottom: 10px;
-    margin-bottom: 1%;  
+    margin-bottom: 1%; 
   }
 
   footer h3 
