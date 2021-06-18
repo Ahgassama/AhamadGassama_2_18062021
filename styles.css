@@ -87,7 +87,7 @@ nav li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin : 0;
+    margin: 0;
   }
   
   header {
@@ -706,9 +706,7 @@ h3 {
   .hotelDescription {
     padding-top: 10px;
     padding-bottom: 5px;
-    line-height: 0.2em; 
-    justify-content: center;
-    text-align: center;
+    line-height: 0.2em;
     height: 10%;
   }
 
