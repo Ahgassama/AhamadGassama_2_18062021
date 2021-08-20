@@ -1,8 +1,6 @@
-
 /*Regles générales*/
-html{
+html {
   width: 100%;
-  
 }
 
 body {
@@ -11,7 +9,7 @@ body {
   font-family: "Raleway";
   font-weight: normal;
   color: black;
-  background-color:white;
+  background-color: white;
   width: 100%;
 }
 
@@ -87,14 +85,11 @@ nav li a:hover {
 /*Header mobile*/
 
 @media screen and (max-width: 700px) {
-
-
-
   body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 0; 
+    margin: 0;
   }
 
   #main {
@@ -102,9 +97,8 @@ nav li a:hover {
     flex-direction: column;
     justify-content: space-around;
     margin: 0;
-    
   }
-  
+
   header {
     flex-direction: column;
   }
@@ -114,7 +108,7 @@ nav li a:hover {
     margin-left: 20px;
   }
 
-  .searchBar{
+  .searchBar {
     margin-left: 20px;
   }
   .searchButton span {
@@ -136,31 +130,30 @@ nav li a:hover {
 
   .menu {
     flex: 1;
-   width: 100%; 
-   margin-top: 20px;
+    width: 100%;
+    margin-top: 20px;
   }
 
   nav ul {
     min-width: 100%;
   }
 
-
-  nav li{
+  nav li {
     width: 100%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    }
+  }
 
   nav a {
-    flex : 1;
+    flex: 1;
     border-bottom: 3px solid #f2f2f2;
     padding-bottom: 10px;
     padding-left: 5px;
     width: 50%;
     text-justify: auto;
     font-size: 20px;
-    font-weight: 100; 
+    font-weight: 100;
   }
 
   nav li a:hover {
@@ -298,7 +291,6 @@ nav li a:hover {
   border-color: #0065fc;
   color: #0065fc;
   background-color: #f2f2f2;
-  
 }
 
 .iconFiltre {
@@ -375,11 +367,11 @@ nav li a:hover {
 .hotelDescription {
   padding-top: 10px;
   padding-bottom: 10px;
-  line-height: 0.5em; 
+  line-height: 0.5em;
 }
 
 .noteHotel {
-  word-spacing:-1ch;;
+  word-spacing: -1ch;
 }
 .fa-star {
   font-size: 0.8rem;
@@ -396,8 +388,6 @@ nav li a:hover {
 /*Section mobile*/
 
 @media screen and (max-width: 700px) {
-
-
   .searchInput {
     border: 1px solid #f2f2f2;
     padding: 0 0 0 15px;
@@ -438,24 +428,20 @@ nav li a:hover {
     display: flex;
     flex-direction: column;
     border-radius: 0;
-
   }
 
- 
   .blocInfo {
     display: flex;
     margin-left: 20px;
     margin-bottom: 20px;
   }
-
-
 }
 
 /*Populaires*/
 
 .Pluspopulaires {
   flex: 1;
-  margin-left: 30px;  
+  margin-left: 30px;
 }
 
 .titrePopulaire {
@@ -481,7 +467,7 @@ nav li a:hover {
   object-fit: cover;
 }
 .PopulaireDescription {
-  flex: 1; 
+  flex: 1;
   flex-direction: column;
   background-color: #fff;
   justify-content: space-between;
@@ -489,8 +475,6 @@ nav li a:hover {
   font-size: 0.9rem;
   text-align: left;
 }
-
-
 
 h3 {
   margin: 0;
@@ -506,7 +490,6 @@ h3 {
   display: flex;
   justify-content: center;
 }
-
 
 .Pluspopulaires {
   background-color: #f2f2f2;
@@ -562,7 +545,7 @@ h3 {
   height: 28%;
 }
 
-.row3 .cadreActivite img{
+.row3 .cadreActivite img {
   height: 67%;
 }
 .row3 .lieuDescription {
@@ -587,26 +570,25 @@ h3 {
   .hotelDescription {
     padding-top: 10px;
     padding-bottom: 10px;
-    line-height: 0.5em; 
+    line-height: 0.5em;
     justify-content: center;
   }
- 
+
   .Pluspopulaires {
-  background-color: #f2f2f2;
-  border-radius: 0;
-  margin: 0;
+    background-color: #f2f2f2;
+    border-radius: 0;
+    margin: 0;
   }
 
-  .Nomhotel,.noteHotel{
+  .Nomhotel,
+  .noteHotel {
     padding-left: 20px;
   }
 
-  
   .hebergements {
-    background-color:white;
+    background-color: white;
     border-radius: 0;
   }
-
 
   .Activites {
     margin: auto;
@@ -614,33 +596,29 @@ h3 {
   }
   .TableauActivites {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     margin-bottom: 10px;
     height: auto;
     flex-wrap: wrap;
-
   }
 
   .cadreActivite {
-    width:90%;
+    width: 90%;
     max-height: 300px;
     flex-wrap: wrap;
     margin: auto;
   }
 
- .cadreActivite img {
-   max-height: 200px;
- }
+  .cadreActivite img {
+    max-height: 200px;
+  }
 
-
-
- .lieuDescription {
-   justify-content: center;
-   padding-left: 10px;
-   padding-top: 10px;
-   max-height: 100px;
- }
- 
+  .lieuDescription {
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    max-height: 100px;
+  }
 }
 
 /*Footer*/
@@ -674,15 +652,14 @@ h3 {
 /*Footer mobile*/
 
 @media screen and (max-width: 700px) {
-  footer { 
+  footer {
     flex-direction: column;
     padding: 50px 40px;
     padding-bottom: 10px;
-    margin-bottom: 1%;  
+    margin-bottom: 1%;
   }
 
-  footer h3 
-  {
+  footer h3 {
     font-size: 20px;
     padding-top: 10px;
   }
@@ -732,64 +709,63 @@ h3 {
     background-color: #f2f2f2;
     border-radius: 0;
     margin-left: 0;
-    }
-    
-    .hebergements {
-      background-color:white;
-    }
-    .cadreActivite img {
-      width: 100%;
-      object-fit: cover;
-      height: 80%;
-    }
-    .lieuDescription {
-      flex: 1;
-      align-self: center;
-      background-color: #fff;
-      padding-left: 10px;
-      font-size: 1.1rem;
-      font-weight: 700;
-      height: 30%;
-      text-align: center;
-    }
-    .Activites {
-      margin: auto;
-    }
-    .TableauActivites {
-      display: flex;
-      flex-direction: column; 
-      margin-bottom: 10px;
-      height: auto;
-      flex-wrap: wrap;
-    }
-    .cadreActivite {
-      width:90%;
-      max-height: 400px;
-      flex-wrap: wrap;
-      margin: auto;
-    }
-  
-   .cadreActivite img {
-     max-height: 250px;
-   }
-  
-   .lieuDescription {
-     justify-content: center;
-     padding-left: 10px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     max-height: 150px;
-   }
-   footer { 
+  }
+
+  .hebergements {
+    background-color: white;
+  }
+  .cadreActivite img {
+    width: 100%;
+    object-fit: cover;
+    height: 80%;
+  }
+  .lieuDescription {
+    flex: 1;
+    align-self: center;
+    background-color: #fff;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    height: 30%;
+    text-align: center;
+  }
+  .Activites {
+    margin: auto;
+  }
+  .TableauActivites {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .cadreActivite {
+    width: 90%;
+    max-height: 400px;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .cadreActivite img {
+    max-height: 250px;
+  }
+
+  .lieuDescription {
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 150px;
+  }
+  footer {
     flex-direction: column;
     padding: 50px 40px;
     justify-content: center;
     padding-bottom: 10px;
-    margin-bottom: 1%; 
+    margin-bottom: 1%;
   }
 
-  footer h3 
-  {
+  footer h3 {
     font-size: 20px;
     padding-top: 10px;
   }
